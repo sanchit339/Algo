@@ -1,0 +1,1 @@
+{"name":"Local: decimal_binary","url":"/Users/sanchitingale/Documents/CPP /NumberTheory/decimal_binary.cpp","tests":[{"id":1681826130494,"input":"5","output":"1"},{"id":1681826134070,"input":"13","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sanchitingale/Documents/CPP /NumberTheory/decimal_binary.cpp","group":"local","local":true}
