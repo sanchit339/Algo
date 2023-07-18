@@ -29,7 +29,7 @@ class stack{
         }
     }
 
-    void push(int element)
+    void pushpa(int element)
     {
         // check for size avaliable
         if(size - top > 1) // > 1 coz top++ in next step
@@ -71,8 +71,8 @@ class stack{
 int main()
 {
     stack st(5);
-    st.push(10);
-    st.push(20);
+    st.pushpa(10);
+    st.pushpa(20);
     cout << st.peek() << endl; // naming convention peek (coz top initialized)
     st.pop();
     st.pop();
