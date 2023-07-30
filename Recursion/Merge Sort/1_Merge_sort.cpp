@@ -49,7 +49,7 @@ class Solution
     }
     
     public:
-    void mergeSort(int arr[], int l, int r)
+    void mergeSort(int arr[], int l, int r) // direct index are given no need to modify
     {
         //code here
         // we will divide the code first

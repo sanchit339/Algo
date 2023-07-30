@@ -1,3 +1,12 @@
+/**
+ * @file hello.cpp
+ * @author Sanchit
+ * @brief 
+ * @date 2023-07-30
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include<bits/stdc++.h>
 using namespace std;
 
