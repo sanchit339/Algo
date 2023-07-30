@@ -1,8 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 const int N = 1e3+7;
 vector<int>graph[N];
-vector<pair<int , int>>wGraph;
+
+// vector<pair<int , int>>wGraph;
 int main(){
     int n , m;
     cin >> n >> m;
