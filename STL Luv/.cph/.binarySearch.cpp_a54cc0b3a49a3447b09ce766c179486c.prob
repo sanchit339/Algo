@@ -1,0 +1,1 @@
+{"name":"Local: binarySearch","url":"/Users/sanchitingale/Documents/STL Luv/binarySearch.cpp","tests":[{"id":1665813736136,"input":"6\n-1 0 3 5 9 12\n11","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sanchitingale/Documents/STL Luv/binarySearch.cpp","group":"local","local":true}
