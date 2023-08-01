@@ -5,6 +5,9 @@
     SC (N) depth of tree
 */
  
+ /*
+    for any n number of subset are 2 ^ n
+ */
 #include<bits/stdc++.h>
 using namespace std;
 
