@@ -15,13 +15,19 @@ bool DFS(int vertex , int parent){
     vis[vertex] = true;
     bool isLoopExists = false;
     for(int child : graph[vertex]){ 
-        if(vis[child] && child == parent)continue; // check the photo at (3 - 5 - 1) this is for 3 visited and  == parent
+        
+        if(vis[child] && child == parent) continue; // node will dfs back to parent (Vertex ) ignore it
+        
+        // base case
+        // if still the other than parent are vivisted then loop exists close the DFS
         if(vis[child]) return true; // if till is present then cycle exists ** check the photo at (3 - 5 - 1)
+
         /*
             but due to recursion it will not ret true 
             so we will or the all the answer
         */
         isLoopExists |= DFS(child , vertex); // the parent of every child is its vertex
+
     }
     return isLoopExists;
 }
