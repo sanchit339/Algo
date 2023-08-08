@@ -10,16 +10,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-struct Node{
-    int val;
-    Node * left ;
-    Node * right ;
 
-    Node(int data){
-        val = data;
-        Node * left = NULL;
-        Node * right = NULL;
-    } 
+//  * Definition for a binary tree node.
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
 // struct Madhe
@@ -37,15 +36,15 @@ struct LLNode{
     // ekk actual node fkt banvala apan 
 };
 
-class treeNode{
-    public:
-        int data;
-        treeNode * left;
-        treeNode * right;
+// class treeNode{
+//     public:
+//         int data;
+//         treeNode * left;
+//         treeNode * right;
 
-    treeNode(int val){
-        data = val;
-        Node * left = NULL;
-        Node * right = NULL;
-    } 
-};
+//     treeNode(int val){
+//         data = val;
+//         Node * left = NULL;
+//         Node * right = NULL;
+//     } 
+// };
