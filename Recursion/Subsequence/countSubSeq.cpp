@@ -12,7 +12,6 @@ int subseqSUM(int idx , int arr[] , int n , int s , int sum){
     //extra base condition
     //if array contains positive only
     if(s > sum) return 0;
-    set<int>st;
     
     // base case 
     if(idx == n){
