@@ -14,23 +14,18 @@ using namespace std;
 
 class Solution {
 private:
-    int check(vector<int> &arr , int weight , int days){
-        int days = 1 , load = 0;
+    int check( vector<int> &arr , int weight ){
+        int days = 0 , load = 0;
         for(int i = 0 ; i < arr.size() ; i++){
-            if(weight[i] + load > ){
-                weight -= arr[i];
-            }
-            else if(temp < 0){
-                i--;
-                cnt++;
-                temp = weight;
+            if(arr[i] + load > weight){
+                days += 1;
+                load = arr[i];
             }
             else{
-                cnt++;
-                temp = weight;
+                load += arr[i];
             }
         }
-        return cnt == days;
+        return days;
     }
 public:
     int shipWithinDays(vector<int>& weights, int days) {
@@ -44,9 +39,9 @@ public:
 
         int low = mini , high = accumulate(weights.begin() , weights.end() , 0);
         while(low <= high){
-            int mid = low - (high - low) / 1;
-            int daysGot = check(weights , mid , days);
-            if(){
+            int mid = (high + low) / 2;
+            int daysGot = check(weights , mid );
+            if(daysGot <= days){
                 high = mid - 1;
             }
             else low = mid + 1;
