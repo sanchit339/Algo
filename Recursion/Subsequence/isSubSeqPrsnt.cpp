@@ -23,6 +23,8 @@ bool subseqSUM(int idx , vector<int> &temp , int arr[] , int n , int s , int sum
         return false;
     }
 
+    if(s > sum) return false;
+    
     // to add , to not add
     temp.push_back(arr[idx]);
     s += arr[idx];

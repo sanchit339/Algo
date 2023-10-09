@@ -31,11 +31,25 @@ int subseqSUM(int idx , int arr[] , int n , int s , int sum){
     return l + r; // to terminate recursion
 }
 
+
+int countSubsequences(vector<int>& nums, int k, int index, int currentSum) {
+    if (index == nums.size()) {
+        return (currentSum == k) ? 1 : 0;
+    }
+    
+    int includeCurrent = countSubsequences(nums, k, index + 1, currentSum + nums[index]);
+    int excludeCurrent = countSubsequences(nums, k, index + 1, currentSum);
+    
+    // backtrack method
+    return includeCurrent + excludeCurrent;
+}
+
 int main(){
-    int arr[] = {1 , 2 , 1};
+    vector<int>arr = {1 , 2 , 1};
     int n = 3;
 
     int reqSum = 2;
     
-    cout << subseqSUM(0 , arr , n , 0 , reqSum);
+    cout << countSubsequences(arr , 2  , 0 , 0);
+    // cout << subseqSUM(0 , arr , n , 0 , reqSum);
 }

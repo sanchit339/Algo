@@ -8,7 +8,7 @@
  * 
  * 
  * @explanation
- *   take a poviot element
+ *   take a poviot element (to Which you will compare the other elements)
  *   place at the appropriate index
  *   call the recursive fun to solve the remining
  */
