@@ -8,7 +8,20 @@
  * @copyright Copyright (c) 2023
  * 
  */
+ /*
+    return  {pointer in array}
+    return  {iterator in vector}
 
+    lower bound return that element or less than that ( <= )
+    upper bound return upper element than that ( >= )
+
+    arr[i] <= x upper bound
+    arr[i] < x lower bound
+
+    lower bound >= x {the first element >= x}
+    upper bound > x {the first element}
+*
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

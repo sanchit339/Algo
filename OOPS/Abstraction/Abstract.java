@@ -4,12 +4,12 @@ package OOPS.Abstraction;
  * 
  */
 
+
 abstract class Animal{ // (Concept) (Can Have Abstarcl and Non Abstract Methods)
     abstract void walk(); // only provides the methods to implemented
     Animal(){
          System.out.println("these are animals");
     }
-    
  }
  
  class Horse extends Animal{

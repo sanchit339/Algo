@@ -67,3 +67,41 @@ class Solution
         merge(arr , l , mid , r);
     }
 };
+
+
+class sol{
+    public:
+        void merge1(vector<int> v , int low , int mid , int high){
+            vector<int> temp;
+            int left = low , right = mid + 1;
+            while (left <= mid && right <= high){
+                if(v[left] <= v[right]){
+                    temp.push_back(v[left++]);
+                }
+                else temp.push_back(v[right++]);
+            }
+
+            while(left <= mid){
+                temp.push_back(v[left++]);
+            }
+            while(right <= high){
+                temp.push_back(v[right++]);
+            }
+            for(int i = low ; i <= high ; i++){
+                v[i] = temp[i - low]; // from where it is sorted 
+            }
+            
+        }
+    public:
+    void sort(vector<int>v , int l , int h){
+
+        if( l == h) return;
+
+        int mid  = (l + h ) / 2;
+
+        sort(v , l , mid);
+        sort(v , mid , h);
+
+        merge1(v , l , mid , h);
+    }
+};
