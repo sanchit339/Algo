@@ -11,7 +11,7 @@ void solve(stack<int> s , int n , int cnt){
     int temp = s.top();
     s.pop();
 
-    solve(s , n , cnt+=1);
+    solve(s , n , cnt += 1);
     s.push(temp);
 }
 

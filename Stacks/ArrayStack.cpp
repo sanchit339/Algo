@@ -61,3 +61,11 @@ public:
     }
 
 };
+
+int main(){
+    int *arr = new int[5];
+    // for(auto it : arr) cout << it << " ";  unInitialized so range based can give undifined behaviour
+    for(int i = 0 ; i < 5 ; i++){
+        cout << arr[i] << " ";
+    }
+}
