@@ -17,6 +17,7 @@ public:
                 (c == ']' && st.top() != '[')
                 )
                     return false;
+                    
                 st.pop();
             }
         }
