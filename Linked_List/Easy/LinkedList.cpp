@@ -39,8 +39,8 @@ struct linkedlist{
     linkedlist *next;
 
     linkedlist(int val){
-        data = val;
-        next = nullptr;
+        this -> data = val;
+        this -> next = nullptr;
     }
 };
 
