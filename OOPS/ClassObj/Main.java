@@ -4,6 +4,11 @@ class Pen{
     String name;
     String type;
 
+    Pen(String naam , String tipe){ // if different name
+        name = naam;
+        type = tipe;
+    }
+
     public void write(){ // methods
         System.out.println("Hello World");
     }
@@ -42,20 +47,23 @@ class Student{
 
 public class Main{
     public static void main(String[] args) {
-        Pen pen1 = new Pen(); // Objects 
-        pen1.name = "reno";
-        pen1.type = "ball";
-        pen1.write();
+        Pen pen0 = new Pen("ren" , "gel");
+        System.out.println(pen0.name + " " + pen0.type);
+        // Pen pen1 = new Pen(); // Objects 
+        // pen1.name = "reno";
+        // pen1.type = "ball";
+        // pen1.write();
 
-        Pen pen2 = new Pen(); // by default constructors
-        pen2.name = "hel";
-        pen2.type = "ball";
 
-        pen1.printCol();
-        pen2.printCol(); 
+        // Pen pen2 = new Pen(); // by default constructors
+        // pen2.name = "hel";
+        // pen2.type = "ball";
 
-        Student std1 = new Student(); // new in Heap 
-        std1.name = "student";
-        std1.hisName();
+        // pen1.printCol();
+        // pen2.printCol(); 
+
+        // Student std1 = new Student(); // new in Heap 
+        // std1.name = "student";
+        // std1.hisName();
     }
 }
