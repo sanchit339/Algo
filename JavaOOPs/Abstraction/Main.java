@@ -10,7 +10,7 @@ public class Main {
         // This can be beneficial in scenarios where you want to treat objects uniformly,
         // regardless of their specific subclass type.
 
-        Employee emp1 = new ConstarctBasis("Sanchit" , salaryC);
+        Employee emp1 = new ContarctBasis("Sanchit" , salaryC);
         Employee emp2 = new FullTimeEmployee("Ath" , salaryF);
 
         emp2.getInhand(salaryF);
