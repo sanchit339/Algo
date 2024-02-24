@@ -1,8 +1,8 @@
 package JavaOOPs.Abstraction;
 
-public class ConstarctBasis extends Employee{
+public class ContarctBasis extends Employee{
 
-    public ConstarctBasis(String name, int salary){
+    public ContarctBasis(String name, int salary){
         super(name, salary);
     }
 
