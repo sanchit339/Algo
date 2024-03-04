@@ -6,6 +6,7 @@ package JavaOOPs.Encapsulation;
 class Encapsulate{
     String name;
     int age;
+    private int password;
 
     public Encapsulate(){
 
@@ -14,5 +15,13 @@ class Encapsulate{
     public Encapsulate(String name , int age){
         this.name = name;
         this.age = age;
+    }
+
+    public int getPassword(){
+        return this.password;
+    }
+
+    public int setPassword(int pass){
+        this.password = pass;
     }
 }

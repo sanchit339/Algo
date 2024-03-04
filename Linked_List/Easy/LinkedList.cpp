@@ -90,6 +90,7 @@ void insertInMiddle(node * &head , int data , int posi){
  * @brief Deletion (Posi , Value Check)
  * 
  * @a temp -> Next == Curr -> next (del curr)
+ * 
  */
 
 void deleteNode(int posi , node * &head , node * &tail){

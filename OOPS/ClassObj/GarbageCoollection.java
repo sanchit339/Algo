@@ -18,6 +18,6 @@ class A {
 
     @Override
     protected void finalize() throws Throwable {
-        System.out.println("Object Destroyed");
+        System.out.println("Object Destroyed");w
     }
 }
