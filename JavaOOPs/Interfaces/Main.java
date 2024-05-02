@@ -7,6 +7,8 @@ public class Main {
         System.out.println(c1.getGear());
         System.out.println(c1.getSpeed());
         System.out.println(c1.maxSpeed(c1.getSpeed()));
-        Vehical.giveSurprise(200);
+        // Vehical.giveSurprise(200);
+        c1.name = 10;
+        System.out.println(c1.name);
     }
 }

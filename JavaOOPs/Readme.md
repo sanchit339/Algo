@@ -31,7 +31,7 @@
     - Same as normal class with ```Variables``` ans ```Methods```.
     - can have abstract a non-abstract methods.
     - Make the parent class as Abstract and rest is same as the inheritance.
-    - You cannot directly use the Abstract it must implemented forst
+    - You cannot directly use the Abstract it must implemented first
         - Due to this no static methods
     - No Abstract Constructor
     - No Final Abstract Methods coz they cannot be overRidden
@@ -58,7 +58,7 @@
     - Final class cannot be inherited [ cannot have subClasses ]
 
     - Dynamic Method Dispatch : - 
-        - when methods are not final compiler will check weather the methods are final or not for the override method - it take time - its known as late binding 
+        - when methods are not final compiler will check whether the methods are final or not for the override method - it take time - its known as late binding 
         - Since the final method cannot overriden it can be directly compiled its known as Early Binding
 
 - Problems with Multiple Inheritance

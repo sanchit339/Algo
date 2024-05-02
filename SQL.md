@@ -35,6 +35,16 @@ VALUES
 - Default
 - Check
 
+###
+```sql
+CREATE TABLE your_table_name (
+    UniqueColumn INT UNIQUE,
+    DefaultColumn VARCHAR(50) DEFAULT 'default_value',
+    CheckColumn INT,
+    CONSTRAINT check_constraint CHECK (CheckColumn > 0)
+);
+```
+
 ## Rename Command 
 
 ```sql

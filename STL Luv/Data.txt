@@ -1,0 +1,58 @@
+regular [ set , map ] ordered -> output sorted
+unordered [ unordered_set , unordered_map ] -> order - anyhow
+        __________________
+vector [1_2_3_4_5_6_7_____ push_back
+
+set.inset() [ values ]
+
+map[[],[]] -> keys , value
+            [Unique] , [Any]
+
+
+[1 1 1 1 1 1 2 32 2 3 3 3 34 4]
+1 2 3 4 32 34
+
+map<int,int>m;
+
+for(auto x : list){
+    ++m[x];
+}
+
+for(){
+    if(s.find(x) == true){  12315
+        flag = true;
+        store(x)
+
+    }
+    else{
+         /// 1 2 3 4 5 6 5 1
+         s.insert();
+    }
+}
+
+if(flag) = jhol
+else nothing
+
+set ( sorted , distinct ) elements
+
+
+( set | unordered_set ) => output sorted -> set () , unordered_set()
+( map | unordered_map) =''
+map.insert({key , vzlue});
+
+
+for (auto [k,v] : m):
+    cout << k << v << 
+
+if(m[x]){
+
+}
+else{
+
+}
+
+
+auto res = map.find(x);
+if(res == mp.end()){
+    
+}

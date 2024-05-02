@@ -7,6 +7,7 @@ package JavaOOPs.Interfaces;
 // Interface inheritance we can extend one Interface with other
 
 public interface Vehical {
+    int name;
     void changeGear(int gear);
     void speedUp(int speed);
     void applyBrake(int speed);
