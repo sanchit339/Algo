@@ -1,1 +1,0 @@
-{"name":"Local: preComputingFact","url":"/Users/sanchitingale/Documents/STL Luv/preComputingFact.cpp","tests":[{"id":1668274356823,"input":"3\n1\n2\n2\n1 2\n3\n3 1 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sanchitingale/Documents/STL Luv/preComputingFact.cpp","group":"local","local":true}

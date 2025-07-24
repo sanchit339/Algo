@@ -1,1 +1,0 @@
-{"name":"Local: preFix2D","url":"/Users/sanchitingale/Documents/STL Luv/preFix2D.cpp","tests":[{"id":1665197107309,"input":"3\n3 6 2\n8 9 2 \n3 4 1\n2\n1 1 2 2 \n1 2 3 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sanchitingale/Documents/STL Luv/preFix2D.cpp","group":"local","local":true}
