@@ -12,8 +12,8 @@
     return  {pointer in array}
     return  {iterator in vector}
 
-    lower bound return that element or less than that ( <= )
-    upper bound return upper element than that ( >= )
+    lower bound return that if target present returns first occurance element else return next greater than that
+    upper bound return next greater element always
 
     arr[i] <= x upper bound
     arr[i] < x lower bound

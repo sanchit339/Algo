@@ -18,7 +18,7 @@ int binary_search(vector<int>v , int target){
         else if(v[mid]< target){
             lo = mid + 1; // traverse "start" from here
         }             
-        else{  // ">=" 
+        else{  // ">="  
             return mid;
         }
     }

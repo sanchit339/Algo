@@ -20,8 +20,8 @@
 
 - Polymorphism
     - Compile Time (Method OverLoading)
-    - Runtime / Dynamic (Method Overriding)
-    - Upcasting (Same Parent diff Children :) )
+    - Runtime / Dynamic (Method Overriding) In Inheritance ( Same Method in Parent / Child ) also child class method called
+    - Upcasting (Same Parent diff Children :) the class is called which is after the new keyword
 
 - Encapsulation
     - Using the getter and setter 
